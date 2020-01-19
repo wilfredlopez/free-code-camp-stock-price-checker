@@ -1,11 +1,20 @@
-**FreeCodeCamp**- Information Security and Quality Assurance
-------
+## **FreeCodeCamp**- Information Security and Quality Assurance
 
 Project Stock Price Checker
 
-1) SET NODE_ENV to `test` without quotes and set DB to your mongo connection string
-2) Complete the project in `routes/api.js` or by creating a handler/controller
-3) You will add any security features to `server.js`
-4) You will create all of the functional tests in `tests/2_functional-tests.js`
+1. SET NODE_ENV to `test` without quotes and set DB to your mongo connection string
+2. Complete the project in `routes/api.js` or by creating a handler/controller
+3. You will add any security features to `server.js`
+4. You will create all of the functional tests in `tests/2_functional-tests.js`
 
+### Note:
 
+Add your `.env.development` and `.env.test` files to the root of the project with your mongodb URI.
+
+Example:
+
+```batch
+MONGO_URI=mongodb+srv://<YOUR USER>:<YOUR PASSWORD>@freecodecamptest-cmqg9.mongodb.net/<YOUR DATABASE NAME>
+```
+
+\*Originally from FreeCodeCamp. Modified by ME.

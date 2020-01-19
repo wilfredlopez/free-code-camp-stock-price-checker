@@ -42,7 +42,7 @@ app.route("/").get(function(req, res) {
   res.sendFile(process.cwd() + "/views/index.html");
 });
 
-process.env.NODE_ENV = "test";
+// process.env.NODE_ENV = "test";
 //For FCC testing purposes
 fccTestingRoutes(app);
 
